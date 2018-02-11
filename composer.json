@@ -1,0 +1,27 @@
+{
+    "name": "plexcellmedia/quickauth",
+    "description": "QuickAuth is user authentication extension for Catalyst Sentinel package. ",
+    "authors": [
+        {
+            "name": "Niko Tikkanen",
+            "email": "niko@plexcellmedia.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4": {
+            "Plexcellmedia\\QuickAuth\\" : "/src"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Plexcellmedia\\QuickAuth\\QuickAuthServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
