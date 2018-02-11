@@ -31,6 +31,7 @@ Plexcellmedia\QuickAuth\QuickAuthServiceProvider::class,
 
 In the **$aliases** array add the following facades for this package.
 ```
+'Input' => Illuminate\Support\Facades\Input::class,
 'QuickAuth' => Plexcellmedia\QuickAuth\Facades\QuickAuth::class,
 ```
 
